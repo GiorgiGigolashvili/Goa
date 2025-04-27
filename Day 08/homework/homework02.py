@@ -1,0 +1,2 @@
+True and False or False or True and False
+#pasuxi: false

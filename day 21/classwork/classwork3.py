@@ -1,0 +1,1 @@
+print("ver vqeni 0-0")

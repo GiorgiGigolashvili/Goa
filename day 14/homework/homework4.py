@@ -1,0 +1,10 @@
+user_info = []
+user_info.append(input("შეიყვანეთ თქვენი სახელი: "))
+user_info.append(input("შეიყვანეთ თქვენი გვარი: "))
+user_info.append(input("შეიყვანეთ თქვენი ასაკი: "))
+user_info.append(input("შეიყვანეთ თქვენი დაბადების თარიღი: "))
+user_info.append(input("შეიყვანეთ თქვენი სიმაღლე: "))
+user_info.append(input("შეიყვანეთ თქვენი წონა: "))
+user_info.append(input("შეიყვანეთ თქვენი საცხოვრებელი ქალაქი: "))
+user_info.append(input("შეიყვანეთ თქვენი პროფესია: "))
+print(user_info)

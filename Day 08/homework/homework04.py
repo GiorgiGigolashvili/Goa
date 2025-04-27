@@ -1,0 +1,1 @@
+#for loop ari cikli romelic gvadzlevs sashualebas gavatarot kodi titoeul elementze cal calke

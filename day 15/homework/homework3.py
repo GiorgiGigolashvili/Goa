@@ -1,0 +1,7 @@
+sentence = input("შეიყვანეთ წინადადება: ")
+lowercase_sentence = sentence.lower()
+print("პატარა ასოებით:", lowercase_sentence)
+uppercase_sentence = sentence.upper()
+print("დიდი ასოებით:", uppercase_sentence)
+capitalized_sentence = sentence.capitalize()
+print("პირველი ასო დიდი:", capitalized_sentence)

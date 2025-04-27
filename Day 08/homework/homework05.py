@@ -1,0 +1,1 @@
+#for cikli ikvlevs mocemul serias da titeul elementistvis asrulebs kods

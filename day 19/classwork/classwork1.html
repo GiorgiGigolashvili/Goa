@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>პარაგრაფების მაგალითი</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f9f9f9;
+    }
+    p {
+      background-color: #e0f7fa;
+      padding: 10px;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #00796b;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+    button:hover {
+      background-color: #004d40;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>საინტერესო თემებზე პარაგრაფები</h1>
+
+  <p>პირველი პარაგრაფი: წიგნები ადამიანის გონებრივ განვითარებაზე დიდ გავლენას ახდენს. კითხვა ამაღლებს ფანტაზიას და ავითარებს ანალიტიკურ აზროვნებას.</p>
+
+  <p>მეორე პარაგრაფი: ტექნოლოგიების განვითარებამ მნიშვნელოვნად შეცვალა ჩვენი ყოველდღიური ცხოვრება. დღეს თითქმის ყველაფერი ინტერნეტით ხდება.</p>
+
+  <p>მესამე პარაგრაფი: სპორტი მნიშვნელოვანია როგორც ფიზიკური ჯანმრთელობისთვის, ასევე მენტალური წონასწორობისთვის. რეგულარული ფიზიკური აქტივობა ზრდის ენერგიას და ხალისს.</p>
+
+  <button onclick="addNewParagraph()">new section add</button>
+
+  <script>
+    function addNewParagraph() {
+      const newPara = document.createElement("p");
+      newPara.textContent = "ახალი სექცია დაემატა! შეგიძლია დამატებით თემებზე დაწერო.";
+      document.body.appendChild(newPara);
+    }
+  </script>
+
+</body>
+</html>
