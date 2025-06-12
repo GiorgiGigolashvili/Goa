@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>saregistracoi forma</title>
+</head>
+<body>
+  <h2>saregistrcaio forma</h2>
+  <form action="/submit_registration" method="post" enctype="multipart/form-data">
+    
+    <label for="email">email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="first_name">saxeli:</label><br>
+    <input type="text" id="first_name" name="first_name" required><br><br>
+
+    <label for="last_name">gvari:</label><br>
+    <input type="text" id="last_name" name="last_name" required><br><br>
+
+    <label for="password">paroli:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <label>გენდერი:</label><br>
+    <input type="radio" id="male" name="gender" value="კაცი" required>
+    <label for="male">kaci</label><br>
+    <input type="radio" id="female" name="gender" value="ქალი">
+    <label for="female">qali</label><br>
+    <input type="radio" id="other" name="gender" value="სხვა">
+    <label for="other">ტაფა</label><br><br>
+
+    <label for="birthdate">dabadebis tarigi:</label><br>
+    <input type="date" id="birthdate" name="birthdate" required><br><br>
+
+    <label for="profile_picture">profilis foto:</label><br>
+    <input type="file" id="profile_picture" name="profile_picture" accept="image/*"><br><br>
+
+    <input type="submit" value="გაგზავნა">
+    <input type="reset" value="სუფთა ფორმა">
+
+  </form>
+</body>
+</html>

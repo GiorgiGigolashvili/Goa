@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>ფორმის მაგალითი</title>
+</head>
+<body>
+
+<h2>რეგისტრაციის ფორმა</h2>
+
+<form id="myForm">
+  
+  <label for="name">სრული სახელი:</label><br>
+  <input type="text" id="name" name="name" required><br><br>
+  
+  <label for="email">ელ-ფოსტა:</label><br>
+  <input type="email" id="email" name="email" required><br><br>
+  
+  <label for="file">აირჩიეთ ფაილი:</label><br>
+  <input type="file" id="file" name="file" required><br><br>
+  
+  <button type="submit">გაგზავნა</button>
+  
+</form>
+
+<script>
+  const form = document.getElementById('myForm');
+
+  form.addEventListener('submit', function(event) {
+    event.preventDefault(); // არ გააგზავნოს ნამდვილი ფორმა
+    alert('ფორმა წარმატებით გაიგზავნა და გასუფთავდა!');
+    form.reset(); // ასუფთავებს ფორმას
+  });
+</script>
+
+</body>
+</html>

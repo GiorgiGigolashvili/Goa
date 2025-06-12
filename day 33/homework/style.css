@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(240, 248, 255); 
+    font-family: 'Georgia', serif; 
+    color: rgb(50, 50, 50); 
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Comic Sans MS', cursive; 
+    color: rgb(200, 0, 100);
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+}
